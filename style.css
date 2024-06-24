@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: #000, solid, 5px;
 }
 
 body {
@@ -33,7 +34,7 @@ header h1.logo a {
 }
 
 header h1.logo a:hover {
-    color: #ffd700; /* золотий колір */
+    color: #b68544; /* золотий колір */
 }
 
 /* Navigation Styles */
@@ -84,7 +85,7 @@ main {
 .sort-options button {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: #ff6f61; /* яскравий червоний */
+    background-color: #287b29; /* яскравий червоний */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -94,7 +95,7 @@ main {
 
 .sort-options a:hover,
 .sort-options button:hover {
-    background-color: #ff4f4f; /* темно-червоний */
+    background-color: #287b29; /* темно-червоний */
     transform: scale(1.05);
 }
 
@@ -113,6 +114,7 @@ main {
 }
 
 .book-item {
+    
     background-color: #fff;
     padding: 1rem;
     border: 1px solid #ddd;
@@ -143,8 +145,16 @@ main {
 }
 
 .book-item p {
+    margin: 3px;
     font-size: 1.1rem;
-    margin-bottom: 1rem;
+}
+.book-item .genre {
+    font-weight: 400;
+}
+
+.book-item b {
+    margin: 2px;
+    font-size: 1rem;
 }
 
 /* Section Cards Styles */
@@ -157,6 +167,7 @@ main {
 .section-card {
     background-color: #fff;
     padding: 1.5rem;
+    border: #000, solid, 5px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;

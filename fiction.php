@@ -62,7 +62,9 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
             <div class="book-item">
                 <img src="<?php echo $book['cover'] ?>" alt="">
                 <h2><?php echo $book['title']?></h2>
-                <p><?php echo $book['genre']?></p>
+                <p class="genre"><?php echo $book['genre']?></p>
+                <b class="year"><?php echo $book['year']?></b>
+                <b><?php echo $book['author']?></b>
                 <p><?php echo $book['description']?></p>
                 
             </div>
