@@ -25,7 +25,7 @@
         <div class="section-cards">
             <a class="section-card" href="fiction.php?section=fiction">
                 <img src="./img/1.jpg" alt="Художня література">
-                <h3>Художня література</h3>і
+                <h3>Художня література</h3>
             </a>
             <a class="section-card" href="non-fiction.php?section=non-fiction">
                 <img src="./img/1.jpg" alt="Документальна література">

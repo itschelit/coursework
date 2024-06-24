@@ -49,7 +49,7 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
 
             <form action="science.php" method="GET">
                 <input type="text" name="search" placeholder="Пошук...">
-                <input type="hidden" name="section" value="<?php echo searchBooks($section, $keyword); ?>">
+                <input type="hidden" name="section" value="<?php echo htmlspecialchars($section) ?>">
                 <button type="submit">Пошук</button>
             </form>
 
