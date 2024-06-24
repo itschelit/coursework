@@ -10,6 +10,10 @@ if (isset($_GET['sort']) && $_GET['sort'] == 'title') {
 if (isset($_GET['sort']) && $_GET['sort'] == 'author') {
     $books = sortBooksByAuthor($section);
 }
+if (isset($_GET['search']) && !empty($_GET['search'])) {
+    $keyword = $_GET['search'];
+    $books = searchBooks($section, $keyword);
+}
 
 ?>
 
